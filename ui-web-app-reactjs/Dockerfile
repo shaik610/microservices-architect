@@ -8,7 +8,7 @@ COPY . .
 RUN npm install express
 RUN npm install
 
-EXPOSE 8080
+EXPOSE 8085
 
 #Runs in development Mode
 CMD ["npm", "start"]
