@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: microservices
-        image: riyazshaik123/microservicesv1.0:latest
+        image: riyazshaik123/microservices1
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
